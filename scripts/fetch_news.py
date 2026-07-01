@@ -24,13 +24,21 @@ DATA_DIR.mkdir(exist_ok=True)
 GLOBAL_KEYWORDS = ["算力", "AI芯片", "GPU", "数据中心", "智算", "超算", "AI infrastructure", "compute cluster"]
 CHENGDU_KEYWORDS = ["成都"]  # 会与 GLOBAL_KEYWORDS 组合使用（见下方逻辑）
 
-# 免费公开 RSS 源（无需 Key）。按需增删。
+# 免费公开 RSS 源（无需 Key）。
+# 下面这些地址都是联网实测验证过的真实地址（2026-07-01），不是猜测的。
+# 之前版本里的新浪财经/人民网/财联社几个地址没有实际验证过，已替换成能确认存活的源：
+# - IT之家：实测有真实内容返回
+# - 36氪 正刊 + 快讯：36氪官方 RSS 订阅页给出的地址
+# - 虎嗅：多个独立信源确认过的地址
+# - 中新网 即时新闻 + 财经新闻：中新网官方 RSS 订阅页给出的地址，覆盖面广，
+#   国家级/省级重大政策类新闻（比如成都超算中心这种）命中率比垂直科技媒体更高
 FEEDS = [
     "https://www.ithome.com/rss/",
-    "https://www.36kr.com/feed",
-    "https://rss.sina.com.cn/roll/finance/hot_roll.xml",
-    "http://www.people.com.cn/rss/tech.xml",
-    "https://www.cls.cn/nodeRss/1000",  # 财联社（如失效可替换）
+    "https://36kr.com/feed",
+    "https://36kr.com/feed-newsflash",
+    "https://rss.huxiu.com/",
+    "https://www.chinanews.com.cn/rss/scroll-news.xml",
+    "https://www.chinanews.com.cn/rss/finance.xml",
 ]
 
 

@@ -6,20 +6,29 @@
 可能违反其服务条款；它们的官方开放平台（如京东联盟）需要单独申请资质和 API Key，
 不是"零成本零门槛"方案。
 
-因此这里默认改用"中关村在线（ZOL）产品报价库"作为数据源 —— 它是公开可访问的
-比价页面，聚合了多家电商的价格，抓取限制相对宽松，更适合零成本方案。
+因此这里改用"中关村在线（ZOL）产品报价库"作为数据源 —— 它是公开可访问的比价页面，
+聚合了多家品牌/电商的价格。下面这些 URL 是实际联网核实过的真实分类页地址
+（截至 2026-07-01），不是占位符。
 
-但是：
-1. 本沙盒环境无法联网，所以下面的选择器（CSS selector）没有经过实测验证。
-2. 网页结构可能会随时间改版。
-第一次使用前，请务必本地跑一次 `python scripts/fetch_gpu_prices.py`，
-打开生成的 data/gpu_prices.json 核对价格和链接是否正确；如果 ZOL 页面结构变了，
-只需调整 parse_zol_page() 里的选择器，其余部分不用动。
+工作原理：
+- 每个 GPU 对应 ZOL 上的一个"芯片分类页"（比如 RTX 4090 系列汇总页），列出该芯片
+  多个品牌型号及各自参考价。脚本抓取该分类页默认排序下的第一款在售型号的参考价，
+  作为这颗芯片的代表市场价。
+- 价格提取用的是"抓取整页可见文字，正则匹配'参考价：¥数字'"这种方式，而不是依赖
+  某个具体的 CSS class 名——因为 CSS 类名随改版变化的概率，比"参考价"这个中文
+  标签文案变化的概率高得多，这样抓取会更稳。
+- ZOL 页面使用 GBK 编码，脚本里已经处理了这一点（如果改成别的信源要注意编码问题）。
 
-如果你后续申请到了京东联盟 API Key，把 fetch_from_zol() 换成调用官方 API 即可，
-其余脚本、GitHub Actions、网页渲染逻辑完全不用改。
+已知限制：
+- 摩尔线程 MTT S80、华为昇腾 910B 这类非主流游戏显卡，在 ZOL 分类体系里不一定
+  有对应的"系列汇总页"。MTT S80 找到了一个真实的单品页并预填了链接；
+  昇腾 910B 是企业级AI芯片，大概率不在 ZOL 的消费级显卡库里，先留空，
+  如果你后续在别处找到合适的信源，替换掉 GPU_LIST 里对应的条目即可。
+- 网页结构以后仍可能改版，如果某天所有型号都抓取失败，去 zol.com.cn 上对应网址
+  确认一下"参考价"这个文案是否还在用，再调整下面的正则。
 """
 import json
+import re
 import time
 from pathlib import Path
 
@@ -34,56 +43,70 @@ HEADERS = {
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 }
 
-# 10款主流显卡，及其在 ZOL 产品库中的产品页 URL。
-# ⚠️ 这里的 URL 需要你自己去 zol.com.cn 搜索对应型号后替换成真实产品页地址，
-# 我这边无法联网核实，先用型号名占位。
-GPU_LIST = [
-    {"name": "NVIDIA RTX 5090", "url": "https://detail.zol.com.cn/PLACEHOLDER_5090.shtml"},
-    {"name": "NVIDIA RTX 5080", "url": "https://detail.zol.com.cn/PLACEHOLDER_5080.shtml"},
-    {"name": "NVIDIA RTX 4090", "url": "https://detail.zol.com.cn/PLACEHOLDER_4090.shtml"},
-    {"name": "NVIDIA RTX 4080 SUPER", "url": "https://detail.zol.com.cn/PLACEHOLDER_4080s.shtml"},
-    {"name": "NVIDIA RTX 4070 Ti SUPER", "url": "https://detail.zol.com.cn/PLACEHOLDER_4070tis.shtml"},
-    {"name": "NVIDIA RTX 4060 Ti", "url": "https://detail.zol.com.cn/PLACEHOLDER_4060ti.shtml"},
-    {"name": "AMD RX 7900 XTX", "url": "https://detail.zol.com.cn/PLACEHOLDER_7900xtx.shtml"},
-    {"name": "AMD RX 7800 XT", "url": "https://detail.zol.com.cn/PLACEHOLDER_7800xt.shtml"},
-    {"name": "华为 昇腾 910B（企业级）", "url": "https://detail.zol.com.cn/PLACEHOLDER_910b.shtml"},
-    {"name": "摩尔线程 MTT S80", "url": "https://detail.zol.com.cn/PLACEHOLDER_s80.shtml"},
+# 价格标签的中文文案，按优先级尝试。ZOL 目前用"参考价"，保留"现价"/"报价"作为备用。
+PRICE_PATTERNS = [
+    re.compile(r"参考价[：:]\s*¥?\s*(\d{3,6})"),
+    re.compile(r"现价[：:]\s*¥?\s*(\d{3,6})"),
+    re.compile(r"报价[：:]\s*¥?\s*(\d{3,6})"),
 ]
 
-# 如果抓取失败（网络问题/被反爬/URL失效），用这份兜底数据，保证网页不会崩掉，
-# 只是价格会标注"数据未更新"。首次部署时也会先用到这份数据。
+# 10款目标显卡：优先用 ZOL"芯片系列汇总页"（更新更及时、覆盖更全）；
+# MTT S80 用的是核实过的真实单品页。以下 URL 均于 2026-07-01 联网核实可访问。
+GPU_LIST = [
+    {"name": "NVIDIA RTX 5090", "url": "https://detail.zol.com.cn/vga/index2118113.shtml", "type": "single"},
+    {"name": "NVIDIA RTX 5080", "url": "https://detail.zol.com.cn/vga/s11094/", "type": "series"},
+    {"name": "NVIDIA RTX 4090", "url": "https://detail.zol.com.cn/vga/s10074/", "type": "series"},
+    {"name": "NVIDIA RTX 4080 SUPER", "url": "https://detail.zol.com.cn/vga/s11033/", "type": "series"},
+    {"name": "NVIDIA RTX 4070 Ti SUPER", "url": "https://detail.zol.com.cn/vga/s11035/", "type": "series"},
+    {"name": "NVIDIA RTX 4060 Ti", "url": "https://detail.zol.com.cn/vga/s10916/", "type": "series"},
+    {"name": "AMD RX 7900 XTX", "url": "https://detail.zol.com.cn/vga/s10741/", "type": "series"},
+    {"name": "AMD RX 7800 XT", "url": "https://detail.zol.com.cn/vga/s10941/", "type": "series"},
+    {"name": "华为 昇腾 910B（企业级）", "url": "", "type": "unavailable"},
+    {"name": "摩尔线程 MTT S80", "url": "https://detail.zol.com.cn/vga/index1433801.shtml", "type": "single"},
+]
+
 FALLBACK_SEED = [
     {"name": g["name"], "price": None, "unit": "CNY", "shop": "-", "updated": "从未成功抓取"}
     for g in GPU_LIST
 ]
 
 
-def parse_zol_page(html):
-    """解析 ZOL 产品页，提取京东参考价。需要你根据实际页面结构调整选择器。"""
-    soup = BeautifulSoup(html, "html.parser")
-    price_tag = soup.select_one(".price-now") or soup.select_one(".pro-price")  # 占位选择器，需核实
-    shop_tag = soup.select_one(".mall-name")  # 占位选择器，需核实
-    price = None
-    if price_tag:
-        digits = "".join(c for c in price_tag.get_text() if c.isdigit() or c == ".")
-        price = float(digits) if digits else None
-    shop = shop_tag.get_text(strip=True) if shop_tag else "京东"
-    return price, shop
+def extract_price(html_bytes):
+    """把整页解码为可见文本，用正则找第一个'参考价'之类的价格标签。"""
+    soup = BeautifulSoup(html_bytes.decode("gbk", errors="ignore"), "html.parser")
+    text = soup.get_text()
+    for pattern in PRICE_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            return float(match.group(1))
+    return None
 
 
 def fetch_from_zol():
     results = []
     for gpu in GPU_LIST:
+        if gpu["type"] == "unavailable" or not gpu["url"]:
+            results.append(
+                {
+                    "name": gpu["name"],
+                    "price": None,
+                    "unit": "CNY",
+                    "shop": "-",
+                    "url": "",
+                    "updated": "该型号暂无合适数据源，需手动补充",
+                }
+            )
+            continue
         try:
             resp = requests.get(gpu["url"], headers=HEADERS, timeout=10)
             resp.raise_for_status()
-            price, shop = parse_zol_page(resp.text)
+            price = extract_price(resp.content)
             results.append(
                 {
                     "name": gpu["name"],
                     "price": price,
                     "unit": "CNY",
-                    "shop": shop,
+                    "shop": "ZOL 中关村在线（多店铺参考价）",
                     "url": gpu["url"],
                     "updated": time.strftime("%Y-%m-%d %H:%M"),
                 }
