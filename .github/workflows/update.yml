@@ -1,0 +1,42 @@
+name: 每日更新算力观察看板
+
+on:
+  schedule:
+    # 每天北京时间 08:30 运行（UTC 00:30）
+    - cron: "30 0 * * *"
+  workflow_dispatch: {}   # 允许在 GitHub 网页上手动点击 "Run workflow" 立即执行
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 抓取算力新闻
+        run: python scripts/fetch_news.py
+
+      - name: 抓取显卡价格
+        run: python scripts/fetch_gpu_prices.py
+
+      - name: 生成网页
+        run: python scripts/build_site.py
+
+      - name: 提交并推送更新
+        run: |
+          git config user.name "compute-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs
+          git diff --quiet && git diff --staged --quiet || git commit -m "自动更新: $(date '+%Y-%m-%d %H:%M')"
+          git push
