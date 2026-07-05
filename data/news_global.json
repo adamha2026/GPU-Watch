@@ -1,9 +1,16 @@
 [
   {
-    "title": "美国乡村居民对数据中心并不买账，担忧推高电价、榨干钱包",
-    "summary": "IT之家 7 月 4 日消息，据《商业内幕》3 日报道，AI 数据中心开发商正把目光投向美国乡村，但当地居民显然并不买账。加德纳食品与农业政策调查显示，与城市和郊区居民相比，美国乡村居民更担心 AI 数据中心会给社区带来负面影响。在当前的美",
-    "link": "https://www.ithome.com/0/972/535.htm",
-    "published": "Sat, 04 Jul 2026 05:52:47 GMT",
+    "title": "消息称 Anthropic 拟在澳大利亚布局 1.4GW 数据中心算力，建设成本达 150 亿美元",
+    "summary": "IT之家 7 月 5 日消息，据澳大利亚金融评论报消息，人工智能公司 Anthropic 计划在澳大利亚锁定至少 1.4 吉瓦（GW）的数据中心算力资源，远超外界此前预期。报道称支撑该规模的基础设施建设成本将高达 150 亿美元（IT之家注",
+    "link": "https://www.ithome.com/0/972/774.htm",
+    "published": "Sun, 05 Jul 2026 07:10:04 GMT",
+    "source": "IT之家"
+  },
+  {
+    "title": "曾号称“全球最大数据中心园区”，黑石集团终止美国弗吉尼亚州“数据门户”项目",
+    "summary": "IT之家 7 月 5 日消息，据路透社报道，黑石集团旗下 QTS 于当地时间周四宣布，公司已决定终止美国弗吉尼亚州的“数据门户（Digital Gateway）”数据中心项目，并撤回所有申请文件。据报道，该项目曾被规划为“全球规模最大的数据",
+    "link": "https://www.ithome.com/0/972/743.htm",
+    "published": "Sun, 05 Jul 2026 05:32:25 GMT",
     "source": "IT之家"
   },
   {
@@ -21,17 +28,10 @@
     "source": "36氪"
   },
   {
-    "title": "GPU帝国松动：推理芯片正在重写AI算力格局",
-    "summary": "",
-    "link": "https://www.huxiu.com/article/4872597.html?f=rss",
-    "published": "Sat, 04 Jul 2026 05:28:39 +0800",
-    "source": "虎嗅"
-  },
-  {
-    "title": "Meta“算力过剩”疑云背后：扎克伯格说AI进展慢了，AI负责人新模型说已追上GPT-5.5",
-    "summary": "",
-    "link": "https://www.huxiu.com/article/4872592.html?f=rss",
-    "published": "Sat, 04 Jul 2026 05:02:49 +0800",
+    "title": "全球最大数据中心建设，终止了",
+    "summary": "阻力重重",
+    "link": "https://www.huxiu.com/article/4872730.html?f=rss",
+    "published": "Sun, 05 Jul 2026 11:16:00 +0800",
     "source": "虎嗅"
   }
 ]
