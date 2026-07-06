@@ -1,37 +1,37 @@
 [
   {
-    "title": "消息称 Anthropic 拟在澳大利亚布局 1.4GW 数据中心算力，建设成本达 150 亿美元",
-    "summary": "IT之家 7 月 5 日消息，据澳大利亚金融评论报消息，人工智能公司 Anthropic 计划在澳大利亚锁定至少 1.4 吉瓦（GW）的数据中心算力资源，远超外界此前预期。报道称支撑该规模的基础设施建设成本将高达 150 亿美元（IT之家注",
-    "link": "https://www.ithome.com/0/972/774.htm",
-    "published": "Sun, 05 Jul 2026 07:10:04 GMT",
+    "title": "谷歌升级 Google Cloud 机密计算产品，新增英伟达 RTX PRO 6000 Blackwell 虚拟机",
+    "summary": "IT之家 7 月 6 日消息，谷歌宣布对旗下 Google Cloud 机密计算（Confidential Computing）产品进行升级，新增基于英伟达 Blackwell GPU 的机密虚拟机、开源 AI 提示词加密工具 Prompt",
+    "link": "https://www.ithome.com/0/973/255.htm",
+    "published": "Mon, 06 Jul 2026 11:38:59 GMT",
     "source": "IT之家"
   },
   {
-    "title": "曾号称“全球最大数据中心园区”，黑石集团终止美国弗吉尼亚州“数据门户”项目",
-    "summary": "IT之家 7 月 5 日消息，据路透社报道，黑石集团旗下 QTS 于当地时间周四宣布，公司已决定终止美国弗吉尼亚州的“数据门户（Digital Gateway）”数据中心项目，并撤回所有申请文件。据报道，该项目曾被规划为“全球规模最大的数据",
-    "link": "https://www.ithome.com/0/972/743.htm",
-    "published": "Sun, 05 Jul 2026 05:32:25 GMT",
-    "source": "IT之家"
-  },
-  {
-    "title": "9点1氪｜阿里内部全面禁用Claude Code；FF洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人AI新公司",
-    "summary": "今日热点导览\n  \n   三部门：调整节能汽车、新能源汽车车船税优惠政策\n   三星传获Meta超10万亿韩元AI芯片代工订单\n   茉莉奶白小程序更换彩色Logo\n   Meta打算出售富余算力引发科技股回落\n   英伟达前光互连技术高管",
-    "link": "https://36kr.com/p/3880629882679301?f=rss",
-    "published": "2026-07-04 09:03:44  +0800",
+    "title": "8点1氪丨7-11指控耐克新鞋配色抄袭；A股新版交易规则今起施行；华尔街称苹果采购长鑫内存是为了压价",
+    "summary": "今日热点导览\n  苹果Siri AI秋季上线，仅限iPhone 15 Pro及以上机型\n  蒋方舟再回应被清华教授指控论文造假\n  张雪称负债接近1亿元，本月将还清全部债务\n  黑石集团放弃全球最大数据中心项目，意味着该建设计划已宣告破产\n",
+    "link": "https://36kr.com/p/3883400536453381?f=rss",
+    "published": "2026-07-06 08:02:20  +0800",
     "source": "36氪"
   },
   {
-    "title": "氪星晚报｜西贝餐饮集团退出小女当家；FF洛杉矶总部人去楼空？公司回应：不实",
-    "summary": "大公司：\n  德银：Meta云业务或打开千亿美元级AI投入变现通道，2027年收入最高增300亿美元\n  针对Meta拟向外部客户出售AI算力及模型访问权限的消息，德意志银行认为，这并不意味着Meta削弱前沿模型或“超级智能”布局，而更可能",
-    "link": "https://36kr.com/p/3879796756754694?f=rss",
-    "published": "2026-07-03 18:55:45  +0800",
-    "source": "36氪"
+    "title": "深圳半导体载板大厂冲刺港交所，实现2nm技术突破，被AI算力带飞",
+    "summary": "",
+    "link": "https://www.huxiu.com/article/4873073.html?f=rss",
+    "published": "Mon, 06 Jul 2026 22:08:27 +0800",
+    "source": "虎嗅"
   },
   {
-    "title": "全球最大数据中心建设，终止了",
-    "summary": "阻力重重",
-    "link": "https://www.huxiu.com/article/4872730.html?f=rss",
-    "published": "Sun, 05 Jul 2026 11:16:00 +0800",
+    "title": "算力死贵，Meta掀桌",
+    "summary": "买家变黄牛，Meta有苦说不出？",
+    "link": "https://www.huxiu.com/article/4873061.html?f=rss",
+    "published": "Mon, 06 Jul 2026 21:25:00 +0800",
+    "source": "虎嗅"
+  },
+  {
+    "title": "Meta卖算力背后，AI资本开支拐点来了？",
+    "summary": "",
+    "link": "https://www.huxiu.com/article/4873056.html?f=rss",
+    "published": "Mon, 06 Jul 2026 20:33:45 +0800",
     "source": "虎嗅"
   }
 ]
