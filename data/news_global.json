@@ -1,23 +1,9 @@
 [
   {
-    "title": "“国产 GPU 四小龙”之一，证监会同意燧原科技科创板 IPO 注册申请",
-    "summary": "IT之家 7 月 9 日消息，证监会今日下发关于同意上海燧原科技股份有限公司首次公开发行股票注册的批复，同意该公司在科创板上市的注册申请。IT之家从招股书获悉，燧原科技创立于 2018 年 3 月。成立近 8 年来，公司自研迭代了四代架构 ",
-    "link": "https://www.ithome.com/0/974/719.htm",
-    "published": "Thu, 09 Jul 2026 11:26:38 GMT",
-    "source": "IT之家"
-  },
-  {
-    "title": "何小鹏：MONA L03 智能辅助驾驶能力超越多数 50 万级旗舰 SUV",
-    "summary": "IT之家 7 月 9 日消息，小鹏集团董事长、CEO 何小鹏今日发文介绍了 MONA L03 的智能辅助驾驶能力。他表示，小鹏 MONA L03 是行业首次把 1500 TOPS 车端算力带入了 15 万级 SUV，智能辅助驾驶能力超越多数",
-    "link": "https://www.ithome.com/0/974/677.htm",
-    "published": "Thu, 09 Jul 2026 09:37:29 GMT",
-    "source": "IT之家"
-  },
-  {
-    "title": "美国区域电力企业 PGE 仅针对数据中心涨价 29%，其余客户享降价",
-    "summary": "IT之家 7 月 9 日消息，美国俄勒冈州公共事业委员会 (PUC) 当地时间本月 7 日批准了该州两大电力供应商之一波特兰通用电力 (PGE) 的价格调整。根据获批变更，自当地时间 8 日起，PGE 服务范围内数据中心客户的平均电价将上涨",
-    "link": "https://www.ithome.com/0/974/675.htm",
-    "published": "Thu, 09 Jul 2026 09:34:57 GMT",
+    "title": "带宽直逼 DDR6：MRDIMM 让 DDR5 服务器内存速率冲向 17600 MT/s",
+    "summary": "IT之家 7 月 10 日消息，据 Wccftech 今日报道，JEDEC（固态技术协会）早于 2020 年代初引入的 MRDIMM 架构，正在成为解决当前及下一代数据中心内存带宽瓶颈的关键方案。该技术由英特尔率先在其至强 6 产品线（代号",
+    "link": "https://www.ithome.com/0/975/212.htm",
+    "published": "Fri, 10 Jul 2026 08:56:04 GMT",
     "source": "IT之家"
   },
   {
@@ -26,5 +12,26 @@
     "link": "https://36kr.com/p/3888230589152008?f=rss",
     "published": "2026-07-09 17:53:58  +0800",
     "source": "36氪"
+  },
+  {
+    "title": "加速进化正式发布具身开发旗舰平台 Booster T2",
+    "summary": "今日，机器人公司“加速进化”正式发布具身开发旗舰平台Booster T2。作为面向未来真实应用打造的新一代人形机器人，Booster T2专业版标配英伟达索尔芯片2070TFLOPS算力，全身最高75个自由度，融合领先的腿足运动控制能力、旗",
+    "link": "https://36kr.com/newsflashes/3889709177338626?f=rss",
+    "published": "2026-07-10 18:56:47  +0800",
+    "source": "36氪"
+  },
+  {
+    "title": "微软200多亿投资打水飘？又一国家给数据中心踩急刹车",
+    "summary": "",
+    "link": "https://www.huxiu.com/article/4874344.html?f=rss",
+    "published": "Fri, 10 Jul 2026 18:42:18 +0800",
+    "source": "虎嗅"
+  },
+  {
+    "title": "数百亿美金砸向海外，AI算力为何加速逃离美国？",
+    "summary": "",
+    "link": "https://www.huxiu.com/article/4874343.html?f=rss",
+    "published": "Fri, 10 Jul 2026 18:41:15 +0800",
+    "source": "虎嗅"
   }
 ]
