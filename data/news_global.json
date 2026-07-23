@@ -1,44 +1,51 @@
 [
   {
-    "title": "为销售更多 GPU，英伟达下场做担保帮 AI 云厂商贷款买芯片",
-    "summary": "IT之家 7 月 22 日消息，今年早些时候，AI 初创公司 Fireworks AI 希望租用价值数亿美元的 AI 算力。与直接采购大规模英伟达 GPU 集群，或向亚马逊、微软等云计算巨头租赁算力不同，Fireworks AI 选择了近年",
-    "link": "https://www.ithome.com/0/980/205.htm",
-    "published": "Wed, 22 Jul 2026 09:37:59 GMT",
+    "title": "消息称 NVIDIA 非 GeForce RTX 5090 / 5090 D v2 显卡迎来套件出货价格补涨",
+    "summary": "IT之家 7 月 23 日消息，据台媒 BenchLife.info 消息，NVIDIA（英伟达）已向下游 AIC 合作伙伴发布 GPU 核心与 VRAM 显存套件出货价格上涨的通知。此次涨价影响几乎全线 GeForce RTX 显卡，仅有",
+    "link": "https://www.ithome.com/0/980/723.htm",
+    "published": "Thu, 23 Jul 2026 09:06:44 GMT",
     "source": "IT之家"
   },
   {
-    "title": "Oracle 恐需为威斯康星 150 亿美元数据中心提供 70 亿美元电力基建担保",
-    "summary": "IT之家 7 月 22 日消息，参考《金融时报》近日报道，威斯康星州公共服务委员会表示将不会为 Oracle（甲骨文）提供豁免，这意味着 Oracle 可能需要为在当地建设的 150 亿美元数据中心园区提供 70 亿美元电力基建担保，每年产",
-    "link": "https://www.ithome.com/0/980/132.htm",
-    "published": "Wed, 22 Jul 2026 08:26:17 GMT",
+    "title": "北京推出新举措支持智能体发展：鼓励发展 Token 经济，加大算力券等支持力度",
+    "summary": "IT之家 7 月 23 日消息，北京市发展改革委等部门联合印发《北京市关于加快智能体引领发展的若干措施》，推动智能体创新引领发展，率先培育智能经济新形态。其中提到，鼓励发展 Token 经济。推动创新主体研发适配智能体系统调用、复杂任务调度",
+    "link": "https://www.ithome.com/0/980/717.htm",
+    "published": "Thu, 23 Jul 2026 08:53:55 GMT",
     "source": "IT之家"
   },
   {
-    "title": "东擎为边缘平台导入 Axelera AI Metis 加速器，至高扩充 214 TOPS 算力",
-    "summary": "IT之家 7 月 22 日消息，东擎 (ASRock Industrial) 昨日宣布与荷兰 AI 芯片企业 Axelera AI 达成战略合作：东擎旗下边缘 AI 平台将支持 PCIe AIC 或 M.2 形态的 Axelera AI M",
-    "link": "https://www.ithome.com/0/980/101.htm",
-    "published": "Wed, 22 Jul 2026 08:03:09 GMT",
+    "title": "英伟达向美国海军研究生院捐赠 GB300 超算，系美军首次部署其最先进 AI 服务器",
+    "summary": "IT之家 7 月 23 日消息，英伟达（Nvidia）与美国海军研究生院（Naval Postgraduate School，NPS）当地时间周三宣布，英伟达已向与该校相关的一家非营利机构捐赠了一套搭载最新 AI 芯片的超级计算机。美国海军",
+    "link": "https://www.ithome.com/0/980/675.htm",
+    "published": "Thu, 23 Jul 2026 08:12:49 GMT",
     "source": "IT之家"
   },
   {
-    "title": "联讯仪器：预计上半年净利润同比增长802%-926%",
-    "summary": "36氪获悉，联讯仪器公告，预计2026年半年度归属于上市公司股东的净利润为5.10亿元-5.80亿元，同比增长802%-926%。业绩变动主要系受益于人工智能技术发展及全球算力需求提升，数据中心建设加速，带动高速光通信产品需求增长，推动公司",
-    "link": "https://36kr.com/newsflashes/3906533439329667?f=rss",
-    "published": "2026-07-22 16:11:18  +0800",
+    "title": "北京：鼓励发展Token（词元）经济，加大算力券等支持力度",
+    "summary": "36氪获悉，北京市发展改革委等部门联合印发《北京市关于加快智能体引领发展的若干措施》，推动智能体创新引领发展，率先培育智能经济新形态。鼓励发展Token(词元)经济。推动创新主体研发适配智能体系统调用、复杂任务调度与高频决策的通用处理器，开",
+    "link": "https://36kr.com/newsflashes/3907987232035975?f=rss",
+    "published": "2026-07-23 16:50:11  +0800",
     "source": "36氪"
   },
   {
-    "title": "算力革命与云厂商三重进化：Agent云的架构升级与“度量衡革命”",
-    "summary": "",
-    "link": "https://www.huxiu.com/article/4877374.html?f=rss",
-    "published": "Wed, 22 Jul 2026 16:14:29 +0800",
-    "source": "虎嗅"
+    "title": "SpaceX人工智能部门计划在得克萨斯州大规模扩建数据中心",
+    "summary": "三名知情人士透露，埃隆・马斯克旗下人工智能企业SpaceXAI正筹备在得克萨斯州建设至少一座全新大型数据中心。此番布局或将大幅扩充SpaceX的AI算力规模，现有算力枢纽位于田纳西州孟菲斯。扩建落地后，SpaceXAI有望跻身主流云服务商行",
+    "link": "https://36kr.com/newsflashes/3907960655975815?f=rss",
+    "published": "2026-07-23 16:41:09  +0800",
+    "source": "36氪"
   },
   {
-    "title": "二级市场投资人WAIC上谈AI下一轮机会：国产算力链、模型公司商业化和估值空间",
-    "summary": "",
-    "link": "https://www.huxiu.com/article/4877284.html?f=rss",
-    "published": "Wed, 22 Jul 2026 10:51:57 +0800",
-    "source": "虎嗅"
+    "title": "浙江宁波：上半年工业用电超422亿度 AI算力用电增势明显",
+    "summary": "中新网宁波7月23日电(项菁 严若婧)浙江宁波电网近日发布数据，今年上半年宁波市全社会用电量达590.09亿千瓦时(亿度)，工业用电量422.90亿千瓦时，同比分别增长6.30%、6.86%。其中，AI算力领域用电量同比增长23.67%。",
+    "link": "https://www.chinanews.com.cn/cj/2026/07-23/10665060.shtml",
+    "published": "Thu, 23 Jul 2026 16:50:42 +0800",
+    "source": "中新网即时新闻"
+  },
+  {
+    "title": "国产算力从“可用”走向“好用” 专家建言推进技术底座安全普惠",
+    "summary": "中新网北京7月23日电 题：国产算力从“可用”走向“好用”专家建言推进技术底座安全普惠",
+    "link": "https://www.chinanews.com.cn/cj/2026/07-23/10665058.shtml",
+    "published": "Thu, 23 Jul 2026 16:48:58 +0800",
+    "source": "中新网即时新闻"
   }
 ]
