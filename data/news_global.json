@@ -1,9 +1,44 @@
 [
   {
-    "title": "甘肃庆阳：黄土塬上长出“数字麦田” 算力引力场聚产业生态",
-    "summary": "中新网兰州8月2日电 (高文 枫桥)盛夏的甘肃庆阳，热风掠过黄土塬的沟壑。国家数据中心集群(甘肃·庆阳)“东数西算”产业园区内，钢结构骨架在阳光下泛着银光，塔吊来回转动。仅仅两年前，这里还是一片玉米地，如今，一座座现代化的数据中心正从黄土地",
-    "link": "https://www.chinanews.com.cn/cj/2026/08-02/10670744.shtml",
-    "published": "Sun, 2 Aug 2026 10:30:37 +0800",
-    "source": "中新网财经新闻"
+    "title": "消息称索尼考虑在《GTA 6》发售前，再次对旗下 PS5 游戏机实行涨价",
+    "summary": "IT之家 8 月 3 日消息，外媒 gamegpu 发文，称由于零部件生产成本走高、内存芯片价格持续上涨以及缺乏与供应商长期合同的压力，索尼 SIE 正考虑在《GTA 6》发售前，再次提高旗下游戏主机和配件的建议零售价，以此弥补当前的财务亏",
+    "link": "https://www.ithome.com/0/984/957.htm",
+    "published": "Mon, 03 Aug 2026 03:50:28 GMT",
+    "source": "IT之家"
+  },
+  {
+    "title": "遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金",
+    "summary": "IT之家 8 月 3 日消息，英国能源市场监管机构 ofgem 当地时间 29 日宣布，其计划设立一项数据中心供电并网保证金制度，以遏制蜂拥而来的投机性数据中心供电申请。ofgem 在 2024 年 11 月时的需求并网申请量仅有 41GW",
+    "link": "https://www.ithome.com/0/984/875.htm",
+    "published": "Mon, 03 Aug 2026 01:56:23 GMT",
+    "source": "IT之家"
+  },
+  {
+    "title": "摩尔线程完成MiniMax H3多模态生成模型适配",
+    "summary": "36氪获悉，今日，MiniMax正式开源多模态生成模型MiniMax H3。同日，摩尔线程基于AI训推一体智算卡MTT S5000及MUSA软件栈，率先完成H3的适配与运行。",
+    "link": "https://36kr.com/newsflashes/3923276079263113?f=rss",
+    "published": "2026-08-03 12:02:48  +0800",
+    "source": "36氪"
+  },
+  {
+    "title": "DeepSeek-V4-Flash正式版API登陆国家超算互联网",
+    "summary": "36氪获悉，近日，DeepSeek-V4-Flash正式版API面向公众开启公测，国家超算互联网第一时间同步上线DeepSeek-V4-Flash模型API调用与下载服务。",
+    "link": "https://36kr.com/newsflashes/3923225864416902?f=rss",
+    "published": "2026-08-03 11:11:43  +0800",
+    "source": "36氪"
+  },
+  {
+    "title": "OpenAI下一代模型Astra曝光，以2000美元算力成本破解十项数学难题",
+    "summary": "OpenAI当地时间8月1日发布有关数学和理论计算机科学的十项突破，这些成果由其下一代主要模型Astra的内部版本实现。按照Sol API的费率计算，找到这些问题的解决方案所需总词元（tokens）成本约为2000美元。十项突破涵盖高维球体",
+    "link": "https://36kr.com/newsflashes/3923212228292232?f=rss",
+    "published": "2026-08-03 10:57:51  +0800",
+    "source": "36氪"
+  },
+  {
+    "title": "DeepSeek V4正式上线，而且要在内蒙古建超算中心",
+    "summary": "AI这局拼到最后，还是看算力、生态和全链条基建",
+    "link": "https://www.huxiu.com/article/4879809.html?f=rss",
+    "published": "Mon, 03 Aug 2026 11:05:00 +0800",
+    "source": "虎嗅"
   }
 ]
