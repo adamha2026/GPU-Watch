@@ -1,16 +1,30 @@
 [
   {
-    "title": "DeepSeek V4 Pro 正式版、Harness 上线国家超算互联网，可一站式完成部署开发",
-    "summary": "IT之家 8 月 15 日消息，8 月 14 日，国家超算互联网宣布上线 DeepSeek V4 Pro 正式版（DeepSeek-V4-Pro-0813），以及智能体框架 DeepSeek Harness。官方介绍称，作为全国首个十万卡级",
-    "link": "https://www.ithome.com/0/990/002.htm",
-    "published": "Sat, 15 Aug 2026 01:53:42 GMT",
+    "title": "消息称英伟达拟向软银旗下 SB Energy 投资 30 亿美元，助 OpenAI 建设数据中心",
+    "summary": "IT之家 8 月 16 日消息，据科技媒体《The Information》当地时间周六援引知情人士消息，英伟达正洽谈向软银子公司 SB Energy 投资至多 30 亿美元（IT之家注：现汇率约合 202.82 亿元人民币）。SB Ene",
+    "link": "https://www.ithome.com/0/990/237.htm",
+    "published": "Sun, 16 Aug 2026 01:48:13 GMT",
     "source": "IT之家"
   },
   {
-    "title": "消息称理想汽车探索自研云端推理芯片，沿用智驾芯片数据流架构",
-    "summary": "IT之家 8 月 14 日消息，晚点 Auto 今天（14 日）晚间援引多个信源消息称，理想汽车正在探索自研云端推理芯片，将采用与智驾芯片相同的数据流架构，项目仍处早期阶段。AI 数据中心普遍使用 GPU 完成模型训练和推理，也有数据中心部",
-    "link": "https://www.ithome.com/0/989/947.htm",
-    "published": "Fri, 14 Aug 2026 14:48:00 GMT",
+    "title": "IT早报 0816：DeepSeek V4 Pro 正式版、Harness 上线国家超算互联网；番茄小说作者“去世”三年后“复活”；曝小米 18 手机标准版延至明年初发布...",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 16 日星期日，今天的重要科技资讯有：1. DeepSeek V4 Pro 正式版、Harness 上线国家超算互联网，可一站式完成部署开发国家超算互联网正式上线 DeepSeek V",
+    "link": "https://www.ithome.com/0/990/211.htm",
+    "published": "Sat, 15 Aug 2026 23:44:32 GMT",
     "source": "IT之家"
+  },
+  {
+    "title": "从 2500 亿美元降至不足 1200 亿美元，消息称英伟达大幅收缩对 OpenAI 数据中心的融资担保",
+    "summary": "IT之家 8 月 16 日消息，据《华尔街日报》报道，知情人士透露，英伟达与 OpenAI 即将就俄亥俄州一座超大规模数据中心园区的融资事宜达成协议，但双方已调整交易结构：这项规划中规模达数千亿美元的建设项目，英伟达最初仅会为其中一半提供担",
+    "link": "https://www.ithome.com/0/990/207.htm",
+    "published": "Sat, 15 Aug 2026 23:32:41 GMT",
+    "source": "IT之家"
+  },
+  {
+    "title": "宁夏中卫：沙漠边缘崛起算力基地",
+    "summary": "中新网中卫8月15日电 题：宁夏中卫：沙漠边缘崛起算力基地",
+    "link": "https://www.chinanews.com.cn/cj/2026/08-15/10678218.shtml",
+    "published": "Sat, 15 Aug 2026 15:58:16 +0800",
+    "source": "中新网财经新闻"
   }
 ]
