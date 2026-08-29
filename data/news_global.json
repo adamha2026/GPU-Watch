@@ -1,9 +1,23 @@
 [
   {
-    "title": "AMD 发布 ROCm 10.0.0，重点关注 AI 推理、开发者工具、性能分析",
-    "summary": "IT之家 8 月 28 日消息，AMD 本周发布了 GPU 加速计算开放软件堆栈 ROCm 的 10.0.0 版本，这一版本号旨在纪念其诞生 10 周年。新版本重点关注 Instinct、Radeon、Ryzen AI 平台上的 AI 推理",
-    "link": "https://www.ithome.com/0/995/683.htm",
-    "published": "Fri, 28 Aug 2026 09:03:50 GMT",
+    "title": "OpenAI 宣布将断供 Cursor 后，Anthropic 称继续增加算力支持 Cursor",
+    "summary": "IT之家 8 月 29 日消息，Anthropic 联合创始人 Tom Brown（汤姆 · 布朗）今日在 X 平台发文，称将继续增加算力支持 Cursor，并期待与 SpaceX 后续合作。自 Claude 3.5 Sonnet 发布以来",
+    "link": "https://www.ithome.com/0/995/913.htm",
+    "published": "Sat, 29 Aug 2026 06:48:26 GMT",
+    "source": "IT之家"
+  },
+  {
+    "title": "AI 算力拉动铜需求激增，2026 年 AI 服务器专用高端铜箔需求预计增 260%",
+    "summary": "IT之家 8 月 29 日消息，据央视新闻今日报道，AI 与铜的距离看起来很远。一边是发生在“云端”的前沿算法，一边是深埋地下的传统金属。可当 AI“跑”起来，它们就被紧紧连在了一起。服务器的高速运算，需要更强的供电、更快的数据传输和更高效",
+    "link": "https://www.ithome.com/0/995/891.htm",
+    "published": "Sat, 29 Aug 2026 03:40:50 GMT",
+    "source": "IT之家"
+  },
+  {
+    "title": "国产 GPU 厂商壁仞科技上半年收入 12.36 亿元，同比增长 1997.6%",
+    "summary": "IT之家 8 月 29 日消息，国产 GPU 厂商壁仞科技昨晚发布公告，截至 2026 年 6 月 30 日止六个月公司收入 12.36 亿元，同比增长 1997.6%；毛利 5.27 亿元，同比增长 2708.5%。公告显示，该公司持续投",
+    "link": "https://www.ithome.com/0/995/887.htm",
+    "published": "Sat, 29 Aug 2026 03:08:21 GMT",
     "source": "IT之家"
   }
 ]
