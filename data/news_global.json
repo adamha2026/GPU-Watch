@@ -1,23 +1,16 @@
 [
   {
-    "title": "DeepSeek 新论文公开 Agent 训练，梁文锋署名",
-    "summary": "大模型训练拼的是算力，Agent 训练拼的是环境。环境怎么造？梁文锋署名的 DeepSeek 最新论文，把技术细节公开了。DeepSeek 做的这个系统叫 DSec（DeepSeek Elastic Compute），干的事情就是给 Age",
-    "link": "https://www.ithome.com/1/006/148.htm",
-    "published": "Wed, 23 Sep 2026 03:37:48 GMT",
+    "title": "AMD RDNA 5 新品曝光：代号“AT2”，微软“Project Helix”芯片同源",
+    "summary": "IT之家 9 月 24 日消息，爆料者 Kepler_L2 在 AnandTech 论坛上透露称，AMD 下一代 RDNA 5 架构 GPU“AT2”将配备 70 个计算单元（CU），目标频率为 3.1GHz 至 3.4GHz。按照爆料信息",
+    "link": "https://www.ithome.com/1/006/714.htm",
+    "published": "Thu, 24 Sep 2026 04:56:10 GMT",
     "source": "IT之家"
   },
   {
-    "title": "反向虚标：苹果 iPhone 18 Pro Max 游戏平均帧率较前代高 50.3%",
-    "summary": "IT之家 9 月 23 日消息，科技媒体 Wccftech 昨日（9 月 22 日）发布博文，报道称在 A20 Pro 芯片的 GPU 性能上，苹果公司“反向虚标”，官方宣传相比较 A19 Pro 提升 40%，不过实测 AAA 游戏帧率提",
-    "link": "https://www.ithome.com/1/006/135.htm",
-    "published": "Wed, 23 Sep 2026 03:01:32 GMT",
-    "source": "IT之家"
-  },
-  {
-    "title": "中国正在把一座“数据中心”拆开送上太空",
+    "title": "MAGA选民是如何把自己坑到数据中心旁边的？",
     "summary": "",
-    "link": "https://www.huxiu.com/article/4893343.html?f=rss",
-    "published": "Wed, 23 Sep 2026 08:23:21 +0800",
+    "link": "https://www.huxiu.com/article/4893725.html?f=rss",
+    "published": "Thu, 24 Sep 2026 12:02:18 +0800",
     "source": "虎嗅"
   }
 ]
