@@ -1,23 +1,37 @@
 [
   {
-    "title": "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升",
-    "summary": "IT之家 10 月 26 日消息，根据 NVIDIA 第一方今年 10 月文档和第三方保存的今年六月文档间的对比，NVIDIA 下调了 Rubin GPU 系统的 HBM 与 NVLink 带宽，但网络带宽有所提升。Vera Rubin 超",
-    "link": "https://www.ithome.com/1/017/812.htm",
-    "published": "Mon, 26 Oct 2026 03:26:52 GMT",
+    "title": "Anthropic 上市文件披露：当今 AI 产业严重依赖天然气",
+    "summary": "IT之家 10 月 27 日消息，据外媒 The Verge 今天（27 日）早间报道，准备上市的 Anthropic 在 S-1 注册文件中，揭示了生成式 AI 产业对甲烷的严重依赖。文件写道，电力供应以及供电条件良好的数据中心选址，都面",
+    "link": "https://www.ithome.com/1/018/270.htm",
+    "published": "Tue, 27 Oct 2026 03:09:14 GMT",
     "source": "IT之家"
   },
   {
-    "title": "英伟达瞄准 AI 软件订阅收入，黄仁勋提出每块 GPU 每年约 2000 美元",
-    "summary": "IT之家 10 月 26 日消息，英伟达首席执行官黄仁勋（Jensen Huang）表示，配套 AI 软件的年度授权费约为每块 GPU 2,000 美元（IT之家注：现汇率约合 13,355 元人民币），用来“运行英伟达提供的、在这些 AI",
-    "link": "https://www.ithome.com/1/017/764.htm",
-    "published": "Mon, 26 Oct 2026 01:41:26 GMT",
+    "title": "塔塔通讯将在印度布设 1 万千米 AI 就绪型长途光纤，连接主要 AI 数据中心",
+    "summary": "IT之家 10 月 27 日消息，Tata Communications（塔塔通讯）当地时间 26 日宣布拟斥资 4~4.5 亿美元（IT之家注：现汇率约合 26.74 ~ 30.08 亿元人民币）在印度建设一条连接关键人工智能数据中心的 ",
+    "link": "https://www.ithome.com/1/018/246.htm",
+    "published": "Tue, 27 Oct 2026 01:53:31 GMT",
     "source": "IT之家"
   },
   {
-    "title": "网友成功将一加 Ace 5 刷入真 · 纯血鸿蒙 6 系统：机型显示华为 Mate 80 Pro，实现 GPU 完美修复",
-    "summary": "IT之家 10 月 26 日消息，B站网友 @RryanLyu 昨晚发布视频，分享了自己的最新刷机成果 —— 为一台一加 Ace 5 手机成功刷入了鸿蒙 HarmonyOS 6 系统，并实现了 GPU 完美修复。视频画面显示，这台一加 Ac",
-    "link": "https://www.ithome.com/1/017/753.htm",
-    "published": "Mon, 26 Oct 2026 01:18:51 GMT",
-    "source": "IT之家"
+    "title": "史上最大IPO却是亏损最多的AI公司：Anthropic正把资本市场拖入算力赌局？",
+    "summary": "",
+    "link": "https://www.huxiu.com/article/4900689.html?f=rss",
+    "published": "Tue, 27 Oct 2026 09:59:43 +0800",
+    "source": "虎嗅"
+  },
+  {
+    "title": "Anthropic 首次公开招股书：指数级增长、5,000亿算力与资本竞赛",
+    "summary": "",
+    "link": "https://www.huxiu.com/article/4900688.html?f=rss",
+    "published": "Tue, 27 Oct 2026 09:53:17 +0800",
+    "source": "虎嗅"
+  },
+  {
+    "title": "SpaceX借来400亿美元，押注GPU的未来五年",
+    "summary": "",
+    "link": "https://www.huxiu.com/article/4900661.html?f=rss",
+    "published": "Tue, 27 Oct 2026 08:39:32 +0800",
+    "source": "虎嗅"
   }
 ]
