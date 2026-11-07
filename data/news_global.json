@@ -1,23 +1,30 @@
 [
   {
-    "title": "印度计划两年内完成自研 GPU，推动 SHAKTI、VEGA 处理器商业化",
-    "summary": "IT之家 11 月 6 日消息，印度正加快建设本土半导体产业，计划在未来约 24 个月内研发出自主 GPU 芯片，同时推动基于 RISC-V 架构的 SHAKTI 和 VEGA 处理器进入商业市场。据印度科技媒体 ETGovernment ",
-    "link": "https://www.ithome.com/1/023/217.htm",
-    "published": "Fri, 06 Nov 2026 04:21:09 GMT",
+    "title": "AI 热潮撞上资源争议，微软荷兰在建数据中心遭抗议",
+    "summary": "IT之家 11 月 7 日消息，路透社最新发布博文，报道称荷兰当地时间昨日（11 月 6 日）百余名活动人士聚集并闯入微软在建的数据中心工地，抗议 AI 基建扩张。报道称百余名活动人士在现场集结，随后进入施工区域，部分人爬上起重机、悬挂气球",
+    "link": "https://www.ithome.com/1/023/650.htm",
+    "published": "Sat, 07 Nov 2026 02:27:50 GMT",
     "source": "IT之家"
   },
   {
-    "title": "淘宝 MNN 团队开源 0.3B 手机模型，苹果 iPhone 18 Pro 离线跑出 350 token/s",
-    "summary": "IT之家 11 月 6 日消息，淘宝旗下 MNN 团队今日发布了 MNN-Pocket-0.3B 模型，面向手机应用的任务需求与资源预算，在有限算力、内存和能耗下，兼顾任务能力、响应速度与持续运行体验。围绕淘宝等综合型手机应用，团队将“手机",
-    "link": "https://www.ithome.com/1/023/212.htm",
-    "published": "Fri, 06 Nov 2026 03:50:20 GMT",
+    "title": "刷新算力巅峰：IBM 在美国芝加哥揭幕其最强量子计算机",
+    "summary": "IT之家 11 月 7 日消息，IBM 昨日（11 月 6 日）发布联合公告，宣布携手芝加哥大学、美国伊利诺伊州政府、以及伊利诺伊量子与微电子园（IQMP），已在芝加哥海德公园实验室投运 IBM Quantum System Two 量子计",
+    "link": "https://www.ithome.com/1/023/635.htm",
+    "published": "Sat, 07 Nov 2026 01:22:48 GMT",
     "source": "IT之家"
   },
   {
-    "title": "“十五五”时期我国用电需求预计每年新增3个上海用电量",
-    "summary": "中新网11月6日电 国家发展改革委6日上午召开奋进“十五五”系列新闻发布会，介绍筑牢安全底座有关情况。国家能源局发展规划司副司长葛炬在会上表示，“十五五”时期，在算力等新兴产业带动下，我国用电需求仍将刚性增长，预计年均增量将达到6000亿度",
-    "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727196.shtml",
-    "published": "Fri, 6 Nov 2026 13:59:28 +0800",
+    "title": "风口浪尖的数据中心，开始放低姿态",
+    "summary": "",
+    "link": "https://www.huxiu.com/article/4903757.html?f=rss",
+    "published": "Sat, 07 Nov 2026 12:47:51 +0800",
+    "source": "虎嗅"
+  },
+  {
+    "title": "台企在江苏无锡开建AI算力高端电子基板材料研发制造总部",
+    "summary": "中新网无锡11月6日电 (孙权 唐娟)总投资8亿美元的联茂电子AI算力高端电子基板材料研发制造总部项目(简称“项目”)，6日在无锡锡山经济技术开发区开工。",
+    "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727708.shtml",
+    "published": "Fri, 6 Nov 2026 23:52:22 +0800",
     "source": "中新网财经新闻"
   }
 ]
