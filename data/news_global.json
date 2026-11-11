@@ -1,16 +1,23 @@
 [
   {
-    "title": "微软新专利瞄准闲置显卡：用户贡献 GPU 训练 AI，可获得现金或免费软件",
-    "summary": "IT之家 11 月 10 日消息，微软一项新的微软专利显示，该公司可能很快会允许用户通过将闲置的 GPU 用于 AI 训练来赚钱。微软于 2026 年 11 月 5 日公布了一项名为《利用边缘设备的闲置 GPU 算力开展机会式微型训练》（O",
-    "link": "https://www.ithome.com/1/024/826.htm",
-    "published": "Tue, 10 Nov 2026 06:43:50 GMT",
+    "title": "DEEPX 2nm 低功耗 AI 芯片 DX-M2 实物芯片预计 2027 年初面世",
+    "summary": "IT之家 11 月 11 日消息，韩国边缘能效 AI 芯片开发商 DEEPX 昨日宣布，其下一代芯片 DX-M2 荣获 CES 2027 人工智能类别创新奖。DX-M2 基于三星晶圆代工 2nm 工艺，集成 80TOPs NPU 算力，至高",
+    "link": "https://www.ithome.com/1/025/442.htm",
+    "published": "Wed, 11 Nov 2026 06:20:09 GMT",
     "source": "IT之家"
   },
   {
-    "title": "平头哥赴港IPO：卖的是云算力，还是芯片？",
-    "summary": "",
-    "link": "https://www.huxiu.com/article/4904332.html?f=rss",
-    "published": "Tue, 10 Nov 2026 09:25:40 +0800",
+    "title": "全国产化算力底座：龙芯智能机器车实现深度视觉与目标抓取，由龙芯 2K3000 统一调度",
+    "summary": "IT之家 11 月 11 日消息，龙芯中科昨日宣布，基于自研智能机器车完成 ROS2 Jazzy 版本的全栈移植，贯通建图定位、手柄遥控、机械臂控制与深度视觉的完整链路。整车由龙芯 2K3000 处理器统一调度，具备环境感知与目标抓取能力。",
+    "link": "https://www.ithome.com/1/025/330.htm",
+    "published": "Wed, 11 Nov 2026 03:38:06 GMT",
+    "source": "IT之家"
+  },
+  {
+    "title": "马斯克的太空数据中心，咋散热？",
+    "summary": "只要思想不滑坡，办法总比困难多",
+    "link": "https://www.huxiu.com/article/4904048.html?f=rss",
+    "published": "Wed, 11 Nov 2026 11:00:00 +0800",
     "source": "虎嗅"
   }
 ]
