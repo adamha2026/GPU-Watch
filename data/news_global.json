@@ -1,23 +1,37 @@
 [
   {
-    "title": "DEEPX 2nm 低功耗 AI 芯片 DX-M2 实物芯片预计 2027 年初面世",
-    "summary": "IT之家 11 月 11 日消息，韩国边缘能效 AI 芯片开发商 DEEPX 昨日宣布，其下一代芯片 DX-M2 荣获 CES 2027 人工智能类别创新奖。DX-M2 基于三星晶圆代工 2nm 工艺，集成 80TOPs NPU 算力，至高",
-    "link": "https://www.ithome.com/1/025/442.htm",
-    "published": "Wed, 11 Nov 2026 06:20:09 GMT",
+    "title": "海光信息总经理沙超群：预计明年量产新一代 CPU，性能对标国际水平",
+    "summary": "IT之家 11 月 12 日消息，据财联社报道，在今日举行的上海证券交易所国际投资者大会上，海光信息董事、总经理沙超群表示，当前算力基础设施已从单芯片走向系统级竞争，国内大模型发展需通过系统级方案解决未来挑战。据介绍，公司产品布局分为三类：",
+    "link": "https://www.ithome.com/1/026/099.htm",
+    "published": "Thu, 12 Nov 2026 07:17:13 GMT",
     "source": "IT之家"
   },
   {
-    "title": "全国产化算力底座：龙芯智能机器车实现深度视觉与目标抓取，由龙芯 2K3000 统一调度",
-    "summary": "IT之家 11 月 11 日消息，龙芯中科昨日宣布，基于自研智能机器车完成 ROS2 Jazzy 版本的全栈移植，贯通建图定位、手柄遥控、机械臂控制与深度视觉的完整链路。整车由龙芯 2K3000 处理器统一调度，具备环境感知与目标抓取能力。",
-    "link": "https://www.ithome.com/1/025/330.htm",
-    "published": "Wed, 11 Nov 2026 03:38:06 GMT",
+    "title": "AMD 收购 World Labs 后李飞飞首次与苏姿丰同台对话：机器人将成为“算力新引擎”，未来几年市场规模或达数千亿美元",
+    "summary": "IT之家 11 月 12 日消息，当地时间 11 月 12 日，在 CoRL 2026 机器人学习大会上，World Labs 创始人兼 CEO 李飞飞与 AMD 董事长兼 CEO 苏姿丰展开对话，围绕物理 AI、机器人发展、算力需求及未来",
+    "link": "https://www.ithome.com/1/026/084.htm",
+    "published": "Thu, 12 Nov 2026 06:56:49 GMT",
     "source": "IT之家"
   },
   {
-    "title": "马斯克的太空数据中心，咋散热？",
-    "summary": "只要思想不滑坡，办法总比困难多",
-    "link": "https://www.huxiu.com/article/4904048.html?f=rss",
-    "published": "Wed, 11 Nov 2026 11:00:00 +0800",
+    "title": "重庆：力争到 2028 年全市可调度智算规模超 10 万 P",
+    "summary": "IT之家 11 月 12 日消息，重庆市人民政府办公厅近日印发《重庆市促进词元驱动的数据产业高质量发展行动计划（2026—2028 年）》，结合该市实际情况深化数字重庆建设。IT之家从重庆市人民政府官网获悉，该《计划》提出力争到 2028 ",
+    "link": "https://www.ithome.com/1/026/066.htm",
+    "published": "Thu, 12 Nov 2026 06:28:54 GMT",
+    "source": "IT之家"
+  },
+  {
+    "title": "黄仁勋再曝婚外情，英伟达董事会拟启动罢免：谁能接班？",
+    "summary": "这家AI芯片巨头是否已经准备好独立运转？",
+    "link": "https://www.huxiu.com/article/4904929.html?f=rss",
+    "published": "Thu, 12 Nov 2026 10:18:05 +0800",
     "source": "虎嗅"
+  },
+  {
+    "title": "A股午评：近3000只个股飘绿，三大指数集体收涨",
+    "summary": "A股午评：近3000只个股飘绿，三大指数集体收涨；半导体大涨，GPU、光刻机、CPO、冰雪旅游走高；贵金属、汽车、软件下跌",
+    "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730728.shtml",
+    "published": "Thu, 12 Nov 2026 11:47:44 +0800",
+    "source": "中新网财经新闻"
   }
 ]
